@@ -3,7 +3,6 @@ const canvas = document.getElementById("canvas");
 const canvasBuffer = document.getElementById("canvasBuffer");
 const canvasFace = document.getElementById("canvasFace");
 const results = document.getElementById("showEmotion");
-const recomendation = document.getElementById("showRecomendation");
 const select = document.getElementById("select");
 const change_camera = document.getElementById("change_camera");
 
@@ -29,10 +28,6 @@ const emotions = [
   "😭 sad : ",
   "😯 surprise : ",
 ];
-
-const recomendation = [
-  "Recomendation for work : ",
-]; 
 
 const gotDevices = (mediaDevices) => {
   select.innerHTML = "";
