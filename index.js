@@ -31,7 +31,7 @@ const emotions = [
 ];
 
 const recomendation = [
-  " recomendation for work : "
+  "Recomendation for work : ",
 ]; 
 
 const gotDevices = (mediaDevices) => {
